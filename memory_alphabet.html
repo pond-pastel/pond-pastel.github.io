@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Alphabet</title>
+    <link rel="stylesheet" href="memory_alphabet.css">
+</head>
+<body>
+    <script src="memory_alphabet.js"></script>
+    <div class="settings">
+        <div>
+            答えるアルファベット
+            <input id="count" type="range" value="2" min="2" max="10" step="1">
+            <span id="show-count">2</span>個前
+        </div>
+        <div>
+            表示形式
+            <select id="letter">
+                <option value="lowercase">小文字</option>
+                <option value="uppercase" selected>大文字</option>
+            </select>
+        </div>
+        <div id="high-score"></div>
+        <div>
+            <span id="rules"></span>
+        </div>
+        <div class="center">
+            <span class="space-bar"></span>を押してスタート
+        </div>
+    </div>
+    <div class="playing" style="display: none;">
+        <div class="key">
+            <span id="alphabet-area"></span>
+        </div>
+        <div>
+            <span id="heart"></span>
+        </div>
+        <div class="center" id="next">
+            <span class="space-bar"></span>で次へ
+        </div>
+        <div class="center" id="question" style="display: none;">
+            <span id="question-count"></span>つ前のアルファベットは？
+        </div>
+    </div>
+    <div class="result" style="display: none;">
+        <div class="center gameover">Game Over</div>
+        <p class="score">Score: <span id="current-score-result"></span></p>
+        <p class="score" id="high-score-bg">High Score: <span id="high-score-result"></span></p>
+        <h2 class="miss">ミス</h2>
+        <div id="miss-group"></div>
+        <div class="center"><span class="space-bar"></span></div>
+    </div>
+</body>
+</html>
