@@ -6,6 +6,7 @@
     --theme-hs: #ffff55;
     background: var(--theme-bg);
     color: var(--theme-ln);
+    font-family: sans-serif;
 }
 
 input[type="range"] {
