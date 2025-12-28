@@ -242,7 +242,7 @@ window.onload = function() {
         save();
     });
     const rules = document.querySelector("#rules");
-    rules.addEventListener("pointerdown", () => {
+    rules.addEventListener("click", () => {
         alert(`アルファベットを覚え、${count}個前のアルファベットを答えるルールです。\n${count}回間違えるとゲームオーバーです。`);
     });
     preparation();
