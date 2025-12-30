@@ -1,0 +1,31 @@
+a {
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    padding: 2em 5px;
+    margin: 1em;
+    background: lightblue;
+    cursor: pointer;
+    border-radius: 1em;
+    &:hover {
+        border: solid 0.2em lightpink;
+    }
+}
+
+#memory-alphabet {
+    --f-l: #50f0d0;
+    --b: #101010;
+    color: var(--f-l);
+    background: var(--b);
+    border-color: var(--f-l);
+}
+
+#flash-color {
+    --f: blue;
+    --b: green;
+    --l: red;
+    color: var(--f);
+    background: var(--b);
+    border-color: var(--l);
+}
