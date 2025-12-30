@@ -1,2 +1,1 @@
-#[Home](https://pond-pastel.github.io/home.html)
-test
+# [Go to a Home](https://pond-pastel.github.io/home.html)
