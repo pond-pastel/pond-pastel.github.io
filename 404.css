@@ -1,0 +1,14 @@
+:root {
+    color: lightseagreen;
+    background: lightpink;
+    text-align: center;
+}
+
+a {
+    color: lightseagreen;
+    text-decoration: none;
+    font-size: 1.2rem;
+    &:hover {
+        text-decoration: underline;
+    }
+}
