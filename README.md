@@ -1,3 +1,5 @@
-<link rel="stylesheet" href="README.css"></link>
-# 無料でゲームや脳トレが楽しめます。  
-_[ホームへ](https://pond-pastel.github.io/home.html)_
+<head>
+  <link rel="stylesheet" href="README.css">
+</head>
+<h1>無料でゲームや脳トレが楽しめます。</h1>
+<i><a href="https://pond-pastel.github.io/home.html">ホームへ</a></i>
