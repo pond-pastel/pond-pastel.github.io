@@ -1,0 +1,16 @@
+:root {
+    background: lightpink;
+    color: lightseagreen;
+}
+
+body {
+    background-color: lightpink;
+}
+
+a {
+    color: lightseagreen;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
