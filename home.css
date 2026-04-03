@@ -1,0 +1,96 @@
+:root {
+    font-family: sans-serif;
+    background: lightpink;
+}
+
+.opus-details {
+    padding: 0.5em 0;
+    margin: 0.5em;
+    border-radius: 2rem;
+    background: lightgreen;
+}
+
+a.opuses {
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2em 5px;
+    margin: 1em;
+    background: lightblue;
+    cursor: pointer;
+    border-radius: 1em;
+    border: solid 0.2em transparent;
+    color: lightseagreen;
+    &:hover {
+        border-color: lightpink;
+    }
+}
+
+a:not(.opuses) {
+    color: lightseagreen;
+    white-space: nowrap;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.description {
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0.5em;
+    color: lightseagreen;
+}
+
+#memory-alphabet {
+    --f-l: #50f0d0;
+    --b: #101010;
+    color: var(--f-l);
+    background: var(--b);
+    &:hover {
+        border-color: var(--f-l);
+    }
+}
+
+#flash-color {
+    --f: blue;
+    --b: green;
+    --l: red;
+    color: var(--f);
+    background: var(--b);
+    &:hover {
+        border-color: var(--l);
+    }
+}
+
+#whack-a-mole {
+    --f-l: #0A8000;
+    --b: #603800;
+    color: var(--f-l);
+    background: var(--b);
+    &:hover {
+        border-color: var(--f-l);
+    }
+}
+
+#one-stroke-drawing {
+    --f-l: #22aa55;
+    --b: #99ffdd;
+    color: var(--f-l);
+    background: var(--b);
+    &:hover {
+        border-color: var(--f-l)
+    }
+}
+
+#time-note {
+    --f-l: #ff9900;
+    --b: #ffffb0;
+    color: var(--f-l);
+    background: var(--b);
+    &:hover {
+        border-color: var(--f-l);
+    }
+}
