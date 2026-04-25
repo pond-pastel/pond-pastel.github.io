@@ -1,0 +1,112 @@
+:root {
+    --rtbg-color: lightpink;
+    --elbg-color: lightgreen;
+    --abg-color: lightblue;
+    --ft-color: lightseagreen;
+    font-family: sans-serif;
+    background: var(--rtbg-color);
+}
+
+select {
+    background: var(--rtbg-color);
+    border: solid 2px var(--ft-color);
+    border-radius: 3px;
+    color: var(--ft-color);
+    cursor: pointer;
+}
+
+#genre {
+    color: var(--ft-color);
+}
+
+.opus-details {
+    padding: 0.5em 0;
+    margin: 0.5em;
+    border-radius: 2rem;
+    background: var(--elbg-color);
+}
+
+a.opuses {
+    display: block;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2em 5px;
+    margin: 1em;
+    background: var(--abg-color);
+    cursor: pointer;
+    border-radius: 1em;
+    border: solid 0.2em transparent;
+    color: var(--ft-color);
+    &:hover {
+        border-color: var(--rtbg-color);
+    }
+}
+
+a.sns-link {
+    color: var(--ft-color);
+    white-space: nowrap;
+    text-decoration: none;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.description {
+    color: var(--ft-color);
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 0.5em;
+}
+
+#memory-alphabet {
+    --f-l: #50f0d0;
+    --b: #101010;
+    color: var(--f-l);
+    background: var(--b);
+    &:hover {
+        border-color: var(--f-l);
+    }
+}
+
+#flash-color {
+    --f: blue;
+    --b: green;
+    --l: red;
+    color: var(--f);
+    background: var(--b);
+    &:hover {
+        border-color: var(--l);
+    }
+}
+
+#whack-a-mole {
+    --f-l: #0A8000;
+    --b: #603800;
+    color: var(--f-l);
+    background: var(--b);
+    &:hover {
+        border-color: var(--f-l);
+    }
+}
+
+#one-stroke-drawing {
+    --f-l: #22aa55;
+    --b: #99ffdd;
+    color: var(--f-l);
+    background: var(--b);
+    &:hover {
+        border-color: var(--f-l)
+    }
+}
+
+#time-note {
+    --f-l: #ff9900;
+    --b: #ffffb0;
+    color: var(--f-l);
+    background: var(--b);
+    &:hover {
+        border-color: var(--f-l);
+    }
+}
